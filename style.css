@@ -1,0 +1,127 @@
+body {
+  font-size: 1.5rem;
+  background-color: rgb(241, 240, 240);
+}
+
+.container {
+  margin: 0 35%;
+  margin-top: 2rem;
+  background-color: purple;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.operand {
+  background-color: rgba(0, 0, 0, 0.322);
+  height: 3em;
+  border-radius: 10px;
+}
+.current-operand {
+  padding-left: 1.2rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: 777;
+}
+
+.previous-operand {
+  padding-left: 1.2rem;
+  padding-bottom: 1rem;
+  height: 10%;
+  color:rgb(190, 190, 190);
+  font-size: 1rem;
+  font-weight: 777;
+}
+
+.container-input {
+  background-color: rgb(226, 204, 144);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 50%;
+  align-self: center;
+  margin: 1rem;
+  font-size: 1.6rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-operators {
+  color: rgb(255, 123, 0);
+  text-align: center;
+  font-weight: 777;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 9px 9px 1px 1px rgba(20, 2, 2, 0.2);
+  cursor: pointer;
+  background-color: rgb(219, 204, 204);
+}
+
+.list-operators:hover {
+  text-decoration: underline;
+}
+
+.list-clear {
+  text-align: center;
+  align-self: flex-end;
+  width: 20%;
+  margin: 0.5rem;
+  padding: 1rem;
+  color: rgb(255, 123, 0);
+  font-weight: 777;
+  border-radius: 10px;
+  box-shadow: 9px 9px 1px 1px rgba(20, 2, 2, 0.2);
+  cursor: pointer;
+  background-color: rgb(219, 204, 204);
+}
+
+.list-clear:hover {
+  text-decoration: underline;
+}
+
+.list-equal {
+  text-align: center;
+  margin: 0.5rem;
+  padding: 1rem;
+  color: rgb(255, 123, 0);
+  font-weight: 777;
+  border-radius: 10px;
+  box-shadow: 9px 9px 1px 1px rgba(20, 2, 2, 0.2);
+  cursor: pointer;
+  background-color: rgb(219, 204, 204);
+}
+
+.list-equal:hover {
+  text-decoration: underline;
+}
+
+.list-numbers {
+  color: rgb(255, 123, 0);
+  text-align: center;
+  font-weight: 777;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 9px 9px 1px 1px rgba(20, 2, 2, 0.2);
+  cursor: pointer;
+  background-color: rgb(219, 204, 204);
+}
+
+.list-numbers:hover {
+  text-decoration: underline;
+}
